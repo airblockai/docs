@@ -23,7 +23,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
-  basePath: "/my-docs",
+  basePath: "/docs",
 };
 
 module.exports = {
