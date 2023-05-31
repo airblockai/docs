@@ -1,16 +1,30 @@
 ---
-title: "Hi"
+title: "Getting Started"
 full: true
 ---
 
-# Introduction
+# Getting Started
 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+Use this quickstart guide to get started with Airblock SDK.
 
-## What is Nextra?
+## Prerequisites
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+You'll need Node.js and a package manager like `npm` or `yarn`
 
-## Documentation
+## 1. Installing The SDK
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+Run `npm install --save @airblock/sdk` to install the SDK locally
+
+## 2. Usage
+
+### Initialize the SDK
+
+You must initialize the SDK before you can instrument any events. Your project's API key is required. After initialization the SDK will auto-detect web3 events.
+
+```js
+import * as airblock from "@airblock/sdk";
+
+const API_KEY = ""; // required
+
+airblock.init(API_KEY);
+```
