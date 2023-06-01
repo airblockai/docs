@@ -11,7 +11,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
-  basePath: "/docs",
+  basePath: "/",
 };
 
 module.exports = {
