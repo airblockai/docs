@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/airblockai/sdk",
   },
   chat: {
-    link: "https://discord.com",
+    link: "https://discord.gg/9trv5aBegp",
   },
   footer: {
     text: "airblock INC", // change
