@@ -1,0 +1,25 @@
+---
+title: "Errors"
+full: true
+---
+
+# Metamask Errors
+
+The airblock SDK auto-detects web3 wallet related events but cannot auto-detect errors. This is the reason we have provided you with a `metamask_error` function. You just need to provide the error to us in the function.
+
+## Usage
+
+```js
+import * as airblock from "@airblock/sdk";
+
+const API_KEY = ""; // required
+
+airblock.init(API_KEY);
+
+// Error handling
+try {
+  connectWallet();
+} catch (err) {
+  airblock.metamask_error(err);
+}
+```
