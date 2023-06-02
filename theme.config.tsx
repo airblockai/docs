@@ -3,7 +3,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 
 const config: DocsThemeConfig = {
-  logo: <span>airblock</span>,
+  logo: <strong>airblock</strong>,
   project: {
     link: "https://github.com/airblockai/sdk",
   },
@@ -13,13 +13,16 @@ const config: DocsThemeConfig = {
   footer: {
     text: "airblock INC", // change
   },
+  feedback: {
+    content: null,
+  },
+  editLink: {
+    text: null,
+  },
   useNextSeoProps() {
-    const { route } = useRouter();
-    if (route !== "/") {
-      return {
-        titleTemplate: "%s",
-      };
-    }
+    return {
+      titleTemplate: "%s – airblock",
+    };
   },
 };
 
