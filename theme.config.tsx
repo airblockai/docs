@@ -11,7 +11,7 @@ const config: DocsThemeConfig = {
     link: "https://discord.gg/9trv5aBegp",
   },
   footer: {
-    text: "airblock INC", // change
+    text: "© airblock Inc.", // change
   },
   feedback: {
     content: null,
