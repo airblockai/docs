@@ -1,4 +1,7 @@
 {
   "index": "Getting Started",
-  "configuration": "Configuration"
+  "events": "Events",
+  "configuration": "Configuration",
+  "metamask": "Metamask",
+  "coinbase": "Coinbase"
 }
