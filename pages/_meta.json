@@ -1,7 +1,4 @@
 {
-  "index": "Getting Started",
-  "events": "Events",
-  "configuration": "Configuration",
-  "metamask": "Metamask",
-  "coinbase": "Coinbase"
+  "index": "Overview",
+  "javascript_sdk": "Javascript SDK"
 }
