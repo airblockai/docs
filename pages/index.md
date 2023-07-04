@@ -5,6 +5,6 @@ full: true
 
 # Overview
 
-airblock is the Open source Marketing platform for Web3.
+airblock is the open source Growth platform for Web3.
 
 
