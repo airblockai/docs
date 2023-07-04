@@ -4,6 +4,11 @@ full: true
 ---
 
 # Default Wallet Events
+The SDK currently supports injected providers (Metamask, Coinbase).
+
+At the start of every user session, the SDK checks if the user has any wallet installed. If the SDK detects one or more wallets, it starts listening for wallet events. 
+
+To learn more, see [code](https://github.com/airblockai/js-sdk/tree/main/packages/wallets).
 
 ## Metamask
 

@@ -3,5 +3,6 @@
   "config": "Configuration",
   "events": "Tracking Events",
   "default_web2_events": "Default Web2 Events",
-  "default_wallet_events": "Default Wallet Events"
+  "default_wallet_events": "Default Wallet Events",
+  "uuid": "User ID"
 }

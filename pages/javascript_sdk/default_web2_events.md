@@ -20,7 +20,7 @@ The SDK auto-detects wallets installed in the user's browser.
 
 
 ### Web Attribution
-The SDK sends `attribution` event at the start of each session or whenever there's a change in attribution parameters within a session.
+The SDK sends `attribution` event at the start of each session or whenever there's a change in the attribution parameters within a session. To learn more, see code [here](https://github.com/airblockai/js-sdk/blob/main/packages/core/src/campaign/campaign.ts) and [here](https://github.com/airblockai/js-sdk/blob/main/packages/core/src/webAttribution.ts).
 
 ```js
 {
@@ -42,7 +42,9 @@ The SDK sends `attribution` event at the start of each session or whenever there
 ```
 
 ### Device Fingerprint
-The SDK generates and sends device `fingerprint` event at the start of each session.
+The SDK generates and sends device `fingerprint` event at the start of each session. The SDK uses [fingerprintjs](https://github.com/fingerprintjs/fingerprintjs) library to generate device fingerprint. To learn more, see [code](https://github.com/airblockai/js-sdk/blob/main/packages/core/src/browser-client.ts#L98).
+
+To disable fingerprinting, see [Configuration](config.md).
 
 ```js
 {
