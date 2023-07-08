@@ -47,7 +47,7 @@ Follow the steps below to use our AWS CloudFormation template to create the stac
 
 <br/>
 
-7. We'll now get the URL that we need to provide in the javascript SDK. Go to `Resources` tab. Search for **"AirblockAPIGWRestAPI"** and click on its `Physical ID`. This will open the API Gateway details page. 
+7. We'll now get the URL that we need to provide in the javascript SDK. Click on `Stacks` in left menu and then click on your stack name. In the right pane, go to the `Resources` tab. Search for **"AirblockAPIGWRestAPI"** and click on its `Physical ID`. This will open the API Gateway details page. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click on `Stages` in the left menu, then expand the `prod` stage and click on `PUT`. 
 
@@ -59,7 +59,7 @@ Follow the steps below to use our AWS CloudFormation template to create the stac
 
 
 ## Test via Postman
-You can use the text below as request body in Postman (select `raw` and `JSON`).
+You can use the text below as body in your `PUT` request (select `raw` and `JSON`).
 
 After sending the request, go to the S3 bucket. You should see a ".json" file in folders created as per time.
 

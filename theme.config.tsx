@@ -5,13 +5,13 @@ import { useRouter } from "next/router";
 const config: DocsThemeConfig = {
   logo: <strong>airblock</strong>,
   project: {
-    link: "https://github.com/airblockai/sdk",
+    link: "https://github.com/airblockai",
   },
   chat: {
     link: "https://discord.gg/9trv5aBegp",
   },
   footer: {
-    text: "© airblock Inc.", // change
+    text: "© airblock Inc.",
   },
   feedback: {
     content: null,
