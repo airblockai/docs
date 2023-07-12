@@ -22,7 +22,6 @@ import * as airblock from "@airblock/js-sdk";
 const API_KEY = "app1"; // required
 const SERVER_URL = "https://..."; // required
  
-airblock.init(API_KEY, SERVER_URL);
 airblock.init(API_KEY, SERVER_URL, {
 	optOut: false
 	fingerprinting: true
